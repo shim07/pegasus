@@ -1,0 +1,64 @@
+body {
+	font-family: Arial, sans-serif;
+    background-color: #8b00fd;
+    background-image: url('https://img.freepik.com/free-photo/italian-food-concept-with-space-left_23-2147686517.jpg?size=626&ext=jpg&ga=GA1.1.1887837148.1723875170&semt=ais_hybrid');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vh;
+    height: 100vh;
+
+    
+}
+
+.allergic-foods {
+	width: 50%;
+	float: left;
+}
+
+.check-food {
+	width: 50%;
+	float: right;
+}
+
+#allergic-foods-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#allergic-foods-list li {
+	margin-bottom: 10px;
+}
+
+#add-allergic-food {
+	background-color: #4CAF50;
+	color: #100a0a;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#check-food-btn {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#result {
+	margin-top: 20px;
+	padding: 10px;
+	background-color: #fff6f6;
+    color: #100a0a;
+	border: 1px solid #2d2323;
+	width: 50%;
+}
+
+.note
+{
+    margin-bottom: 30;
+}
